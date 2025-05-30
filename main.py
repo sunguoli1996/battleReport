@@ -357,7 +357,7 @@ class MainWindow(QMainWindow):
         self.raise_()
         self.activateWindow()
         self.show()  # 确保窗口显示
-        print("主窗口已恢复", flush=True)
+        print("主窗口已恢复!", flush=True)
         
     def onTrackCompleted(self, start_x, start_y, end_x, end_y):
         print(f"主窗口接收到鼠标轨迹: 从 ({start_x}, {start_y}) 到 ({end_x}, {end_y})")
